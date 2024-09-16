@@ -3,7 +3,7 @@ let prevDom = document.getElementById('prev');
 let carouselDom = document.querySelector('.carousel');
 let listItemDom = document.querySelector('.carousel .list');
 let thumbnailDom = document.querySelector('.carousel .thumbnail');
-let activeImage = listItemDom[itemSlider.length - 1]
+let activeImage = listItemDom[itemSlider.length - 1];
 
 nextDom.onclick = function () {
     showSlider('next');
