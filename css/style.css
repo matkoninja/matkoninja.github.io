@@ -325,5 +325,11 @@ header a {
     .carousel .list .item .title{
         font-size: 30px;
     }
-
+    /*.carousel .thumbnail {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .carousel .buttons {
+        display: block;
+    }*/
 }

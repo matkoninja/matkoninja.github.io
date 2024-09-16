@@ -1,0 +1,94 @@
+/* Contact page styles */
+
+.contact-header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-header h1 {
+    font-size: 3em;
+    color: #f1683a;
+}
+
+.contact-header p {
+    font-size: 1.2em;
+    color: #eee;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #111;
+    color: #eee;
+}
+
+.info-block {
+    text-align: center;
+}
+
+.info-block h3 {
+    font-size: 1.5em;
+    color: #f1683a;
+}
+
+.info-block p, .info-block a {
+    font-size: 1em;
+    color: #eee;
+    text-decoration: none;
+}
+
+.contact-form {
+    padding: 50px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form h2 {
+    font-size: 2em;
+    color: #f1683a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #eee;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #222;
+    color: #eee;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f1683a;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e05726;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #eee;
+    margin-top: 50px;
+}

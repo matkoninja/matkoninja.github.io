@@ -3,6 +3,7 @@ let prevDom = document.getElementById('prev');
 let carouselDom = document.querySelector('.carousel');
 let listItemDom = document.querySelector('.carousel .list');
 let thumbnailDom = document.querySelector('.carousel .thumbnail');
+let activeImage = listItemDom[itemSlider.length - 1]
 
 nextDom.onclick = function () {
     showSlider('next');
@@ -10,6 +11,7 @@ nextDom.onclick = function () {
 prevDom.onclick = function () {
     showSlider('prev');
 }
+
 let timeRunning = 3000;
 let timerAutoNext = 10000;
 let runTimeOut;
